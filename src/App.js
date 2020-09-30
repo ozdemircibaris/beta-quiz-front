@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import YouTube from 'react-youtube';
 
 export default class App extends Component {
   state = {
@@ -23,6 +24,7 @@ export default class App extends Component {
     console.log('timer', timer)
     return (
       <div>
+        <YouTube videoId="e5QEAI_O2IA" opts={opts} onReady={this._onReady} />;
         <h1> timer: {timer} </h1>
         <button
           onClick={this.startTimer}
