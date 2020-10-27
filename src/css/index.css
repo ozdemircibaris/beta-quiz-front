@@ -1,0 +1,33 @@
+.container {
+    padding-top: 5%;
+    /* position: relative; */
+}
+
+.videoContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playIconContainer {
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.playIcon {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+}
+
+.quiz {
+    color:#fff;
+    font-size: large;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
